@@ -52,7 +52,7 @@ function Navbar() {
             </div>
             {/* Mobile Menu */}
             <div
-              className={`absolute top-14 left-0  w-full rounded-xl bg-white bg-opacity-70  ${
+              className={`absolute top-14 left-0 w-full rounded-xl text-white text-center bg-black bg-opacity-30 px-10 py-5  ${
                 nav ? '' : 'hidden'
               }`}
             >
