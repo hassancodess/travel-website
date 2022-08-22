@@ -1,5 +1,12 @@
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 function App() {
-  return <div className='text-9xl'>Welcome!</div>
+  return (
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  )
 }
 
 export default App
